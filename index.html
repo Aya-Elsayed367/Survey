@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قوللنا رأيك في ChatGPT</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ece9e6, #ffffff);
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      direction: rtl;
+      color: #333;
+    }
+   
+    h1 {
+      font-size:56px;
+      text-align: center;
+      color: #00897b;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    textarea, select, input[type="text"] {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .question {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    button {
+      background-color: #00897b;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #00695c;
+    }
+  </style>
+</head>
+<body>
+
+
+<div style="display: flex; align-items: center; gap: 1px;">
+  <h1>قوللنا رأيك في ChatGPT</h1>
+  <img src="Untitled.png" alt="صورة تعبيرية" style="width: 280px;
+height: 150px; display: block; margin: 0 auto 20px;">
+</div>
+
+
+
+
+  <form>
+    <div class="question">
+      <label>بتستخدم AI في إيه؟</label>
+      <select>
+        <option>مذاكرة</option>
+        <option>شغل</option>
+        <option>ترفيه</option>
+        <option>مش بستخدمه</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>أكتر حاجة بتحبها؟</label>
+      <select>
+        <option>السرعة</option>
+        <option>الذكاء</option>
+        <option>الردود المفيدة</option>
+        <option>الترفيه</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>إيه ناقص في AI؟</label>
+      <select>
+        <option>صوت يتكلم معايا</option>
+        <option>فهم مشاعري</option>
+        <option>متابعة مهامي</option>
+        <option>يشتغل بدون نت</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>اى اكتر ميزه نفسك تكون موجوده فى ال AI؟ (اكتب رأيك بحرية)</label>
+      <textarea rows="4"></textarea>
+    </div>
+
+    <div class="question">
+      <label>تثق في AI؟</label>
+      <select>
+        <option>آه جدًا</option>
+        <option>شوية</option>
+        <option>لا خالص</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>تفضّل AI يشبه؟</label>
+      <select>
+        <option>صديق</option>
+        <option>أستاذ</option>
+        <option>مساعد شخصي</option>
+        <option>لعبة</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>لو هتستخدمه كل يوم؟</label>
+      <select>
+        <option>لمذاكرة</option>
+        <option>لتنظيم وقتي</option>
+        <option>للتحدث معاه</option>
+        <option>ولا حاجة</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>رأيك مهم </label>
+      <textarea rows="3" placeholder="اكتب رأيك بحرية..."></textarea>
+    </div>
+
+    <button type="submit">إرسال</button>
+  </form>
+</body>
+</html>
